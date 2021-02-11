@@ -140,10 +140,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="flecs.h" />
+    <ClInclude Include="Unit.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="flecs.c" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Unit.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
